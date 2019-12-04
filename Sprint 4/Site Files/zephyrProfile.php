@@ -90,7 +90,7 @@
                         <div class="col-sm-9" id="sectionBody2"></div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-9" id="sectionBody2"></div>
+                        <div class="col-sm-9" id="sectionBody3"></div>
                     </div>
                 </div>
                 <div id="secondaryWrapper">

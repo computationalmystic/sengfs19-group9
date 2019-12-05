@@ -20,15 +20,15 @@
 ## Modified/Created Code
 Repository Descriptions: 
 1. Each team member had their own development branch for pushing updates on code they were individually working on
- a. DomDevBranch: Dominic Mantro
- b. DerekDevBranch: Derek Rechtien
- c. JessicaDevBranch: Jessica Dean
- d. MartianDevBranch: Martian Lapadatescu
+ - DomDevBranch: Dominic Mantro
+ - DerekDevBranch: Derek Rechtien
+ - JessicaDevBranch: Jessica Dean
+ - MartianDevBranch: Martian Lapadatescu
 2. Repositories were also created for each individual sprint in order to successfully merge and submit code weekly
- a. Sprint1: Completed November 4th, 2019
- b. Sprint2: Completed November 11th, 2019
- c. Sprint3: Completed November 20th, 2019
- d. Sprint4: Completed December 5th, 2019
+ - Sprint1: Completed November 4th, 2019
+ - Sprint2: Completed November 11th, 2019
+ - Sprint3: Completed November 20th, 2019
+ - Sprint4: Completed December 5th, 2019
 
 ## Testing: 
 Used manual testing of website to debug and assess any errors 

@@ -18,7 +18,7 @@
 7. It's up and running.
 
 ## Modified/Created Code
-Repository Descriptions: 
+Branch Descriptions: 
 1. Each team member had their own development branch for pushing updates on code they were individually working on
  - DomDevBranch: Dominic Mantro
  - DerekDevBranch: Derek Rechtien

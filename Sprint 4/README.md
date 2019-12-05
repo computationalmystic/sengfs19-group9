@@ -24,7 +24,7 @@ Branch Descriptions:
  - DerekDevBranch: Derek Rechtien
  - JessicaDevBranch: Jessica Dean
  - MartianDevBranch: Martian Lapadatescu
-2. Repositories were also created for each individual sprint in order to successfully merge and submit code weekly
+2. Branches were also created for each individual sprint in order to successfully merge and submit code weekly
  - Sprint1: Completed November 4th, 2019
  - Sprint2: Completed November 11th, 2019
  - Sprint3: Completed November 20th, 2019

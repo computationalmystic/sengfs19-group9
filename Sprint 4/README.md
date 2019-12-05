@@ -1,18 +1,34 @@
+## Viewing Instructions: 
+ *THIS SITE IS MEANT TO BE RUN ON CHROME ON A 1920X1080 DEVICE. IF USING A LAPTOP, PLEASE USE CHROME AND ZOOM OUT UNTIL IT LOOKS APPROPIATE*
+- A full, working version of our project is available on www.dmantro.com
+
+**Tutorial**
+1. To use the login system, hover over the Augur logo in the top corner of the site and click login. 
+2. Once on the login page, enter the username 'graph' and password 'pass' for GraphQL. Or enter the username 'zephyr' and password 'pass' for Zephyr-RTOS.
+3. You may now access their respective profile pages by clicking the profile button in the Nav!
+
 ## Deployment Instructions For Mac:
 
 1. Do 'Start virtualenv' and navigate where you want to store the code
-
 2. After logging in to your server, use git clone https://github.com/computationalmystic/sengfs19-group9/tree/Sprint4/Sprint%204 to download our repository.
-
 3. Mkdir 'ProjectName' & then cd 'ProjectName'
-
 4. Inside that folder, create a folder a new virtualenv. Do virtualenv env.
-
 5. Activate virtualenv
-
 6. source env/bin/activate
-
 7. It's up and running.
+
+## Modified/Created Code
+Repository Descriptions: 
+1. Each team member had their own development branch for pushing updates on code they were individually working on
+ a. DomDevBranch: Dominic Mantro
+ b. DerekDevBranch: Derek Rechtien
+ c. JessicaDevBranch: Jessica Dean
+ d. MartianDevBranch: Martian Lapadatescu
+2. Repositories were also created for each individual sprint in order to successfully merge and submit code weekly
+ a. Sprint1: Completed November 4th, 2019
+ b. Sprint2: Completed November 11th, 2019
+ c. Sprint3: Completed November 20th, 2019
+ d. Sprint4: Completed December 5th, 2019
 
 ## Testing: 
 Used manual testing of website to debug and assess any errors 

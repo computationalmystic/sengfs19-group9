@@ -2,22 +2,29 @@
  *THIS SITE IS MEANT TO BE RUN ON CHROME ON A 1920X1080 DEVICE. IF USING A LAPTOP, PLEASE USE CHROME AND ZOOM OUT UNTIL IT LOOKS APPROPIATE*
 - A full, working version of our project is available on www.dmantro.com
 
+***Description***
+- The home page gives a description of Augur and has a video speaking about CHAOS. There is a graph that loads in and shows the amount of contributors in each repo group. There is a picture of the Augur logo in the bottom right corner of the page that when clicked, will take you to the login page.
+- By defuault, the user will not be logged in. So, the small Augur logo in the top right corner will be RED. When logged in, the Augur logo will be GREEN.
+- You can hover over that logo and when logged out, there will be a login button, and when logged in, there will be a log out button.
+- The login page displays random data every 5 seconds or so below the login area itself, along with an explanation of the stuff written prior to this.
+- There are 2 users you can log into (we might implement every single repo group by the final submission on the 14th). GraphQL and Zephyr-RTOS. GraphQL login info: User: graph Pass: pass. Zephyr login info: User: zephyr Pass: pass.
+- Now logged in, you can view whoevers profile you are logged into. It displays 3 different graphs with info, and the group logo, and there is a button that when clicked, you can view the list of repos within the repo group.
+
 **Tutorial**
 1. To use the login system, hover over the Augur logo in the top corner of the site and click login. 
 2. Once on the login page, enter the username 'graph' and password 'pass' for GraphQL. Or enter the username 'zephyr' and password 'pass' for Zephyr-RTOS.
 3. You may now access their respective profile pages by clicking the profile button in the Nav!
 
-## Deployment Instructions For Mac:
+## Deployment Instructions:
 
-1. Do 'Start virtualenv' and navigate where you want to store the code
-2. After logging in to your server, use git clone https://github.com/computationalmystic/sengfs19-group9/tree/Sprint4/Sprint%204 to download our repository.
-3. Mkdir 'ProjectName' & then cd 'ProjectName'
-4. Inside that folder, create a folder a new virtualenv. Do virtualenv env.
-5. Activate virtualenv
-6. source env/bin/activate
-7. It's up and running.
+1. Clone repository and use the folder from the Sprint 4 branch titled 'Sprint 4'.
+2. Within that folder, use the folder titled 'Site Files' to view the website.
+3. Host those files on a server that can run php, as our website pages are .php and not .html.
+4. View & Done!
 
 ## Modified/Created Code
+Changes:
+- We scrapped the idea of an admin user logging in. It proved to be too complicated and not really possible.
 Branch Descriptions: 
 1. Each team member had their own development branch for pushing updates on code they were individually working on
  - DomDevBranch: Dominic Mantro

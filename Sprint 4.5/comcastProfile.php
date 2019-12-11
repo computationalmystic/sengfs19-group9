@@ -88,8 +88,8 @@
                 echo '</div>';
             }
             else if ($comcastUser) {
-                echo '<a href="comcastProfile.php">Profile</a>';
-                echo '<a class="active" href="madeBy.php">Made By</a>';
+                echo '<a class="active" href="comcastProfile.php">Profile</a>';
+                echo '<a href="madeBy.php">Made By</a>';
             echo '<div class="dropdown">';
                 echo '<button class="dropbtn"><img src="logInNavbar.jpg"></button>';
                 echo '<div class="dropdown-content"><a href="logOut.php">Logout</a></div>';

@@ -1,31 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Augur: Comcast Profile</title>
+    <head>       
+      <title>Augur: Made By</title> 
         <meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css?family=Lora|Encode+Sans+Condensed" rel="stylesheet">
-       <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+          <link href="https://fonts.googleapis.com/css?family=Lora|Encode+Sans+Condensed" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="stylesheet.css">
+                    <script src="djmvy7FinalJS.js"></script> 
+                        <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+                        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
 
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
         <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://www.chartjs.org/dist/2.8.0/Chart.min.js"></script>
-        <script src="comcastGroup.js"></script>
     </head>
-
-    <body id="comcastProfileBody" onload="getRepoGroupInfo()">   
-        
-        <?php
-            $comcastUser = empty($_COOKIE['comcast']) ? '' : $_COOKIE['comcast'];
-            if (!$comcastUser) {
-                header('Location: logIn.php');
-                exit;
-            }
-        ?>
-        
+    
+    <body id="madeByBody" onload="getRepoGroupInfo()">    
         <div class="navbar">
             <a href="index.php">Home</a>
             <a href="about.php">About</a>
@@ -41,7 +33,7 @@
             $apacheUser = empty($_COOKIE['apache']) ? '' : $_COOKIE['apache'];
             if (!$graphUser && !$zephyrUser && !$mhsUser && !$netflixUser && !$railsUser && !$comcastUser && !$chaossUser && !$apacheUser) {
               echo '<a href="graphQLProfile.php">Profile</a>'; 
-              echo '<a href="madeBy.php">Made By</a>';
+              echo '<a class="active" href="madeBy.php">Made By</a>';
             echo '<div class="dropdown">';
               echo '<button class="dropbtn"><img src="logOutNavbar.jpg"></button>';
               echo '<div class="dropdown-content"><a href="logIn.php">Login</a></div>'; 
@@ -49,7 +41,7 @@
             }
             else if ($graphUser) {
                 echo '<a href="graphQLProfile.php">Profile</a>';
-                echo '<a href="madeBy.php">Made By</a>';
+                echo '<a class="active href="madeBy.php">Made By</a>';
             echo '<div class="dropdown">';
                 echo '<button class="dropbtn"><img src="logInNavbar.jpg"></button>';
                 echo '<div class="dropdown-content"><a href="logOut.php">Logout</a></div>';
@@ -57,7 +49,7 @@
             }
             else if ($zephyrUser) {
                 echo '<a href="zephyrProfile.php">Profile</a>';
-                echo '<a href="madeBy.php">Made By</a>';
+                echo '<a class="active href="madeBy.php">Made By</a>';
             echo '<div class="dropdown">';
                 echo '<button class="dropbtn"><img src="logInNavbar.jpg"></button>';
                 echo '<div class="dropdown-content"><a href="logOut.php">Logout</a></div>';
@@ -65,7 +57,7 @@
             }
              else if ($mhsUser) {
                 echo '<a href="mhsProfile.php">Profile</a>';
-                echo '<a href="madeBy.php">Made By</a>';
+                echo '<a class="active href="madeBy.php">Made By</a>';
             echo '<div class="dropdown">';
                 echo '<button class="dropbtn"><img src="logInNavbar.jpg"></button>';
                 echo '<div class="dropdown-content"><a href="logOut.php">Logout</a></div>';
@@ -73,7 +65,7 @@
             }
             else if ($netflixUser) {
                 echo '<a href="netflixProfile.php">Profile</a>';
-                echo '<a href="madeBy.php">Made By</a>';
+                echo '<a class="active href="madeBy.php">Made By</a>';
             echo '<div class="dropdown">';
                 echo '<button class="dropbtn"><img src="logInNavbar.jpg"></button>';
                 echo '<div class="dropdown-content"><a href="logOut.php">Logout</a></div>';
@@ -81,7 +73,7 @@
             }
             else if ($railsUser) {
                 echo '<a href="railsProfile.php">Profile</a>';
-                echo '<a href="madeBy.php">Made By</a>';
+                echo '<a class="active href="madeBy.php">Made By</a>';
             echo '<div class="dropdown">';
                 echo '<button class="dropbtn"><img src="logInNavbar.jpg"></button>';
                 echo '<div class="dropdown-content"><a href="logOut.php">Logout</a></div>';
@@ -89,7 +81,7 @@
             }
             else if ($comcastUser) {
                 echo '<a href="comcastProfile.php">Profile</a>';
-                echo '<a class="active" href="madeBy.php">Made By</a>';
+                echo '<a class="active href="madeBy.php">Made By</a>';
             echo '<div class="dropdown">';
                 echo '<button class="dropbtn"><img src="logInNavbar.jpg"></button>';
                 echo '<div class="dropdown-content"><a href="logOut.php">Logout</a></div>';
@@ -97,7 +89,7 @@
             }
             else if ($chaossUser) {
                 echo '<a href="chaossProfile.php">Profile</a>';
-                echo '<a href="madeBy.php">Made By</a>';
+                echo '<a class="active href="madeBy.php">Made By</a>';
             echo '<div class="dropdown">';
                 echo '<button class="dropbtn"><img src="logInNavbar.jpg"></button>';
                 echo '<div class="dropdown-content"><a href="logOut.php">Logout</a></div>';
@@ -105,7 +97,7 @@
             }
             else if ($apacheUser) {
                 echo '<a href="apacheProfile.php">Profile</a>';
-                echo '<a href="madeBy.php">Made By</a>';
+                echo '<a class="active href="madeBy.php">Made By</a>';
             echo '<div class="dropdown">';
                 echo '<button class="dropbtn"><img src="logInNavbar.jpg"></button>';
                 echo '<div class="dropdown-content"><a href="logOut.php">Logout</a></div>';
@@ -114,47 +106,51 @@
            ?>
        </div>
         
-        <h1 id="pageTitle">Welcome Comcast Repo Group!</h1>
+        <h1 id="bhnPageTitle">Augur - Made By</h1> 
         
-        <script>
-//            functions in javascript
-//            routing
-            
-            import { HomeComponent } from './home/home.component';
-            import { AboutComponent } from './about/about.component';
-            import { PrivacyComponent } from './privacy/privacy.component';
-            import { TermsComponent } from './terms/terms.component';
-            
-            const routes: Routes = [
-              { path: 'home', component: HomeComponent },
-              { path: 'about', component: AboutComponent },
-              { path: 'contact', component: ContactComponent },
-              { path: 'profile', component: ProfileComponent },
-              { path: '', redirectTo: '/home', pathMatch: 'full' }
-            ];
-        </script>
-        
-        <div id = "mainWrapper">
-            <div id = "innerWrapper">
-                <div id="chartWrapper">
-                    <div class="row">
-                        <div class="col-sm-9" id="sectionBody"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-9" id="sectionBody2"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-9" id="sectionBody3"></div>
+         <!-- Main Wrapper -->
+         <div id = "bandMainWrapper"> 
+            <!-- Inner Wrapper -->
+            <div id="innerWrapper">
+                <!-- Greeting Wrapper -->
+                <div id="greetWrapper"><p id="greetLine">This Site Was Made By:</p></div>
+                <!-- Dom Wrapper -->
+                <div id="liamWrapper">
+                    <!-- Liam Picture Wrapper -->    
+                    <div id="liamPicWrapper"><img src="dom.jpg" alt="Dominic" id="liamBioPic"></div>
+                    <!-- Liam Text Wrapper -->
+                    <div id="liamBioText">
+                        <p id="introLine">Dominic Mantro</p>
                     </div>
                 </div>
-                <div id="secondaryWrapper">
-                   <div id="otherFunctionProfileWrapper">
-                     <h3 id="viewZephyrRepoLine">View Repos In Comcast!</h3>   
-                       <p class="repoDropdown"><select id="comcastDrop" name="Comcast-Repos"><option>View Repos ↓</option></select></p>
-                   </div>
-                   <div id="profileLogoWrapper"><img src="comcastLogo.png" alt="Comcast Logo" class="albumCover"></div>
+                <!-- Derek Wrapper -->
+                <div id="noelWrapper">
+                    <!-- Noel Picture Wrapper -->
+                    <div id="noelPicWrapper"><img src="derek.jpg" alt="Derek" id="noelBioPic"></div>
+                    <!-- Noel Text Wrapper -->
+                    <div id="noelBioText">
+                        <p id="introLine">Derek Rechtien</p>
+                    </div>
+                </div>
+                <!-- Martian Wrapper -->
+                <div id="gemWrapper">
+                    <!-- Gem Picture Wrapper -->
+                    <div id="gemPicWrapper"><img src="martian.jpg" alt="Martian" id="gemBioPic"></div>
+                    <!-- Gem Text Wrapper -->
+                    <div id="gemBioText">
+                        <p id="introLine">Martian Lapadatescu</p>
+                    </div>
+                </div>
+                <!-- Jess Wrapper -->
+                <div id="andyWrapper">
+                    <!-- Andy Picture Wrapper -->
+                    <div id="andyPicWrapper"><img src="jessica.jpg" alt="Jessica" id="andyBioPic"></div>
+                    <!-- Andy Text Wrapper -->
+                    <div id="andyBioText">
+                        <p id="introLine">Jessica Dean</p>
+                    </div>
                 </div>
             </div>
-        </div>    
-    </body>
+        </div>
+    </body>  
 </html>

@@ -41,7 +41,7 @@
             $apacheUser = empty($_COOKIE['apache']) ? '' : $_COOKIE['apache'];
             if (!$graphUser && !$zephyrUser && !$mhsUser && !$netflixUser && !$railsUser && !$comcastUser && !$chaossUser && !$apacheUser) {
               echo '<a href="graphQLProfile.php">Profile</a>'; 
-              echo '<a>Settings</a>';
+              echo '<a href="madeBy.php">Made By</a>';
             echo '<div class="dropdown">';
               echo '<button class="dropbtn"><img src="logOutNavbar.jpg"></button>';
               echo '<div class="dropdown-content"><a href="logIn.php">Login</a></div>'; 
@@ -49,7 +49,7 @@
             }
             else if ($graphUser) {
                 echo '<a href="graphQLProfile.php">Profile</a>';
-                echo '<a>Settings</a>';
+                echo '<a href="madeBy.php">Made By</a>';
             echo '<div class="dropdown">';
                 echo '<button class="dropbtn"><img src="logInNavbar.jpg"></button>';
                 echo '<div class="dropdown-content"><a href="logOut.php">Logout</a></div>';
@@ -57,15 +57,15 @@
             }
             else if ($zephyrUser) {
                 echo '<a href="zephyrProfile.php">Profile</a>';
-                echo '<a>Settings</a>';
+                echo '<a href="madeBy.php">Made By</a>';
             echo '<div class="dropdown">';
                 echo '<button class="dropbtn"><img src="logInNavbar.jpg"></button>';
                 echo '<div class="dropdown-content"><a href="logOut.php">Logout</a></div>';
                 echo '</div>';
             }
              else if ($mhsUser) {
-                echo '<a class="active" href="mhsProfile.php">Profile</a>';
-                echo '<a>Settings</a>';
+                echo '<a href="mhsProfile.php">Profile</a>';
+                echo '<a class="active" href="madeBy.php">Made By</a>';
             echo '<div class="dropdown">';
                 echo '<button class="dropbtn"><img src="logInNavbar.jpg"></button>';
                 echo '<div class="dropdown-content"><a href="logOut.php">Logout</a></div>';
@@ -73,7 +73,7 @@
             }
             else if ($netflixUser) {
                 echo '<a href="netflixProfile.php">Profile</a>';
-                echo '<a>Settings</a>';
+                echo '<a href="madeBy.php">Made By</a>';
             echo '<div class="dropdown">';
                 echo '<button class="dropbtn"><img src="logInNavbar.jpg"></button>';
                 echo '<div class="dropdown-content"><a href="logOut.php">Logout</a></div>';
@@ -81,7 +81,7 @@
             }
             else if ($railsUser) {
                 echo '<a href="railsProfile.php">Profile</a>';
-                echo '<a>Settings</a>';
+                echo '<a href="madeBy.php">Made By</a>';
             echo '<div class="dropdown">';
                 echo '<button class="dropbtn"><img src="logInNavbar.jpg"></button>';
                 echo '<div class="dropdown-content"><a href="logOut.php">Logout</a></div>';
@@ -89,7 +89,7 @@
             }
             else if ($comcastUser) {
                 echo '<a href="comcastProfile.php">Profile</a>';
-                echo '<a>Settings</a>';
+                echo '<a href="madeBy.php">Made By</a>';
             echo '<div class="dropdown">';
                 echo '<button class="dropbtn"><img src="logInNavbar.jpg"></button>';
                 echo '<div class="dropdown-content"><a href="logOut.php">Logout</a></div>';
@@ -97,7 +97,7 @@
             }
             else if ($chaossUser) {
                 echo '<a href="chaossProfile.php">Profile</a>';
-                echo '<a>Settings</a>';
+                echo '<a href="madeBy.php">Made By</a>';
             echo '<div class="dropdown">';
                 echo '<button class="dropbtn"><img src="logInNavbar.jpg"></button>';
                 echo '<div class="dropdown-content"><a href="logOut.php">Logout</a></div>';
@@ -105,7 +105,7 @@
             }
             else if ($apacheUser) {
                 echo '<a href="apacheProfile.php">Profile</a>';
-                echo '<a>Settings</a>';
+                echo '<a href="madeBy.php">Made By</a>';
             echo '<div class="dropdown">';
                 echo '<button class="dropbtn"><img src="logInNavbar.jpg"></button>';
                 echo '<div class="dropdown-content"><a href="logOut.php">Logout</a></div>';

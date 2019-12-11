@@ -61,6 +61,12 @@ li{
     background-size: 1920px 1080px;
 }
 
+#madeByBody {
+    background-color: #42378f;
+    background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+    background-size: 1920px 1080px;
+}
+
 #welcomeLine {
     color: indianred;
     text-decoration: underline;
@@ -688,4 +694,197 @@ form {
     margin-left 10px;
     margin-right: 105px;
     font-family: 'Lora', serif; 
+}
+
+#bhnPageTitle {
+    color: white; 
+    font-family: 'Lora', serif; 
+    text-shadow: #222222 1px 1px,#222222 0px 0px,#222222 1px 1px,#222222 2px 2px,#222222 3px 3px,#222222 4px 4px,#222222 5px 5px,#222222 6px 6px,#222222 7px 7px,#222222 8px 8px,#222222 9px 9px,#222222 10px 10px,#222222 11px 11px,#222222 12px 12px,#222222 13px 13px,#222222 14px 14px,#222222 15px 15px,#222222 16px 16px,#222222 17px 17px,#222222 18px 18px,#222222 19px 19px,#222222 20px 20px;
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 40px;
+    padding-top: 25px;
+}
+
+#bandMainWrapper {
+    width: 1500px;
+    height: 750px;
+    padding: 10px;
+    margin: 20px auto;
+    overflow: auto;
+    border: 5px outset mediumpurple;
+    background-color: rgba(255, 255, 255, .7);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 10px 24px 0 rgba(0, 0, 0, 0.19);
+}
+
+#liamWrapper {
+   height: 300px;
+   width: 650px;
+   border: 2px outset gray;
+   padding: 5px;
+   margin: 5px;
+   position: absolute;
+   top: 27.5%;
+   right: 52.25%;
+   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+}
+
+#noelWrapper {
+   height: 300px;
+   width: 650px;
+   border: 2px outset gray;
+   padding: 5px;
+   margin: 5px;
+   position: absolute;
+   top: 60.5%;
+   right: 52.25%;
+   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+}
+
+#gemWrapper {
+   height: 300px;
+   width: 650px;
+   border: 2px outset gray;
+   padding: 5px;
+   margin: 5px;
+   position: absolute;
+   top: 27.5%;
+   right: 13%;
+   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+}
+
+#andyWrapper {
+   height: 300px;
+   width: 650px;
+   border: 2px outset gray;
+   padding: 5px;
+   margin: 5px;
+   position: absolute;
+   top: 60.5%;
+   right: 13%;
+   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+}
+
+#liamPicWrapper {
+   height: 285px;
+   width: 275px;
+   margin: 2px;
+   padding: 2px;
+   top: 2.1%;
+   right: 55%;
+   position: absolute;
+}
+
+#liamBioPic {
+    margin-left: auto;
+    margin-right: auto;
+    right: 1.8%;
+    top: 1.6%;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px outset black;
+}
+
+#liamBioText {
+   height: 285px;
+   width: 325px;
+   margin: 2px;
+   padding: 2px;
+   top: 1.8%;
+   right: 2%;
+   position: absolute;
+   text-align: center;
+}
+
+#noelPicWrapper {
+   height: 285px;
+   width: 275px;
+   margin: 2px;
+   padding: 2px;
+   top: 2.1%;
+   right: 55%;
+   position: absolute;
+}
+
+#noelBioPic {
+    margin-left: auto;
+    margin-right: auto;
+    right: 1.8%;
+    top: 1.6%;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px outset black;
+}
+
+#noelBioText {
+   height: 285px;
+   width: 325px;
+   margin: 2px;
+   padding: 2px;
+   top: 1.8%;
+   right: 2%;
+   position: absolute;
+   text-align: center;
+}
+
+#gemPicWrapper {
+   height: 285px;
+   width: 275px;
+   margin: 2px;
+   padding: 2px;
+   top: 2.1%;
+   right: 55%;
+   position: absolute;
+}
+
+#gemBioPic {
+    margin-left: auto;
+    margin-right: auto;
+    right: 1.8%;
+    top: 1.6%;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px outset black;
+}
+
+#gemBioText {
+   height: 285px;
+   width: 325px;
+   margin: 2px;
+   padding: 2px;
+   top: 1.8%;
+   right: 2%;
+   position: absolute;
+   text-align: center;
+}
+
+#andyPicWrapper {
+   height: 285px;
+   width: 275px;
+   margin: 2px;
+   padding: 2px;
+   top: 2.1%;
+   right: 55%;
+   position: absolute;
+}
+
+#andyBioPic {
+    margin-left: auto;
+    margin-right: auto;
+    right: 1.8%;
+    top: 1.6%;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px outset black;
+}
+
+#andyBioText {
+   height: 285px;
+   width: 325px;
+   margin: 2px;
+   padding: 2px;
+   top: 1.8%;
+   right: 2%;
+   position: absolute;
+   text-align: center;
 }

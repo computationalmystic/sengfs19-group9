@@ -20,7 +20,7 @@
 
 ## Deployment Instructions:
 
-1. Clone repository and use the folder from the Final Build branch titled 'Sprint 4.5'.
+1. Clone repository and use the folder from the Final Build branch titled 'Final Build'.
 2. Within that folder, use the folder titled 'Site Files' to view the website.
 3. Host those files on a server that can run php, as our website pages are .php and not .html.
 4. View & Done!
